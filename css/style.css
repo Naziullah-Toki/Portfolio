@@ -1,0 +1,138 @@
+.header-section{
+    background-color: beige;
+}
+
+
+
+.one{
+    background: url(../image/header_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.nav-section{
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    flex: 50%;
+    margin-left: 200px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_bar{
+    flex: 50%;
+    display: inline-block;
+    font-size: 17px;
+    margin-right: 120px;
+    list-style-type: none;
+    
+}
+.nav_bar a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav1, .nav2, .nav3{
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.hire-btn{
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(235, 77, 15);
+    border-radius: 5px;
+    border-color: rgb(235, 77, 15);
+}
+.banner-text, .banner-image{
+    flex: 50%;
+}
+.banner-text{
+    margin-left: 180px;
+}
+.img-btn{
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(235, 77, 15);
+    border-radius: 5px;
+    border-color: rgb(235, 77, 15);
+}
+.banner-text h3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner-text h1{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner-text p{
+    font-size: 25px;
+}
+.info{
+    text-align: center;
+}
+.about-me{
+    margin: 100px 100px 0px 100px;
+    background-color: bisque;
+    padding-top: 50px;
+    border-radius: 5px;
+}
+.about-info{
+    text-align: center;
+    margin: 100px 140px 100px 140px;
+}
+.about-info h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.about-info p {
+    font-size: 20px;
+}
+.property-name, .property-value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pp1{
+    margin: 30px 50px 0px 50px;
+    font-size: 25px;
+}
+.pp2{
+    margin: 30px 30px 0px 30px;
+    font-size: 25px;
+}
+.property-value{
+    padding-bottom: 100px;
+}
+.service-card{
+    display: flex;
+    margin: 50px 100px 20px 100px;
+}
+.service-description{
+    text-align: center;
+    margin: 100px 250px 50px 250px;
+}
+
+.card-1{
+    margin-right: 25px;
+}
+.service-description h1{
+      font-size:  50px; 
+}
+.service-description p{
+    font-size: 30px;
+}
+.card-1 h3{
+    font-size: 30px;
+}
+.card-1 p{
+    font-size: 20px;
+}
